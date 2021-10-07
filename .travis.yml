@@ -1,0 +1,5 @@
+os: osx
+jobs:
+  include:
+    - stage: "sleep 109"
+      script: sleep 10
